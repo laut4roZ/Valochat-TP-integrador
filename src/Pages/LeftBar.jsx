@@ -2,7 +2,7 @@ import { BsChatLeftDots } from "react-icons/bs";
 import { IoIosPeople } from "react-icons/io";
 import { BsBrowserEdge } from "react-icons/bs";
 import { BsGear } from "react-icons/bs";
-import './Leftbar.css';
+import './LeftBar.css';
 
 
 
