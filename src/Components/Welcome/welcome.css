@@ -1,6 +1,4 @@
-
-
-.welcome-container{
+.welcome-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,16 +8,17 @@
     background-color: #363636;
 }
 
-.welcome-logo{
+.welcome-logo {
     width: 50%;
 
 }
 
-.welcome-text{
+.welcome-text {
     font-size: 1.5rem;
     margin-bottom: 30px;
 }
-.welcome-title{
+
+.welcome-title {
     font-size: 2rem;
     margin-top: 20px;
     margin-bottom: 20px;

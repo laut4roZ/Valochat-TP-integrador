@@ -10,6 +10,9 @@ import { BsThreeDotsVertical } from "react-icons/bs";
 import { GoDeviceCameraVideo } from "react-icons/go";
 import { GoSearch } from "react-icons/go";
 import { IoSearchSharp } from "react-icons/io5";
+import { RiChatNewFill } from "react-icons/ri";
+import { SlOptionsVertical } from "react-icons/sl";
+
 
 
 
@@ -21,8 +24,8 @@ function ContactList() {
             <header className='contact-header'>
                 <h1 className='header-title'>ValoChat</h1>
                 <div className='header-icons'>
-                    <IoMdArrowRoundBack/>
-                    <IoMdSend />
+                    <RiChatNewFill />
+                    <SlOptionsVertical />
                 </div>
             </header>
 
@@ -31,8 +34,6 @@ function ContactList() {
                 <IoSearchSharp className='icon-search' />
             </div>
             <ProfileContainer className="profile-container" />
-
-
         </section>
     );
 }

@@ -1,4 +1,4 @@
-.leftbaricons{
+.leftbaricons {
     position: static;
     display: flex;
     flex-direction: column;
@@ -9,11 +9,11 @@
     gap: 15px;
 }
 
-.abajo{
+.abajo {
     position: relative;
     top: 680px;
 }
 
-.iconsize{
+.iconsize {
     font-size: 2rem;
 }

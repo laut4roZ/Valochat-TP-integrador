@@ -64,9 +64,9 @@ function Chat() {
                     </div>
                 </div>
                 <div className="right-header">
-                <GoDeviceCameraVideo />
-                <GoSearch className="search-iconheader"/>
-                <BsThreeDotsVertical />
+                    <GoDeviceCameraVideo />
+                    <GoSearch className="search-iconheader" />
+                    <BsThreeDotsVertical />
                 </div>
             </header>
             <div style={{ backgroundImage: `url(${contacto.fondo})` }} className="chat-messages">

@@ -7,11 +7,11 @@ import ContactoItem from '../ContactoItem/ContactoItem';
 
 const ProfileContainer = () => {
     return (
-        <div style={{ width: "100%", border: "1px solid", borderRadius: 8, overflow: "hidden"}}>
+        <div style={{ width: "100%", border: "1px solid", borderRadius: 8, overflow: "hidden" }}>
             {contactos.map((contacto) => (
-                <Link 
-                    to={`/chat/${contacto.id}`} 
-                    key={contacto.id} 
+                <Link
+                    to={`/chat/${contacto.id}`}
+                    key={contacto.id}
                 >
                     <ContactoItem
                         nombre={contacto.nombre}

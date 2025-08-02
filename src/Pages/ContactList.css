@@ -37,7 +37,8 @@
     font-size: 1.5rem;
 }
 
-.header-icons{
+.header-icons {
+    font-size: 1.5rem;
     display: flex;
     justify-content: space-between;
     gap: 22px;
