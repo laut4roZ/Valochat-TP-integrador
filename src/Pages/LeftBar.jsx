@@ -1,8 +1,17 @@
-import { BsChatLeftDots } from "react-icons/bs";
-import { IoIosPeople } from "react-icons/io";
-import { BsBrowserEdge } from "react-icons/bs";
-import { BsGear } from "react-icons/bs";
+
 import './LeftBar.css';
+import { IoMdArrowRoundBack } from "react-icons/io";
+import { BsCheckAll } from "react-icons/bs";
+import { IoMdSend } from "react-icons/io";
+import { AiOutlinePlusCircle } from "react-icons/ai";
+import { BsThreeDotsVertical } from "react-icons/bs";
+import { GoDeviceCameraVideo } from "react-icons/go";
+import { GoSearch } from "react-icons/go";
+import { BsChatLeftDots } from "react-icons/bs";
+import { BsBrowserEdge } from "react-icons/bs";
+import { IoIosPeople } from "react-icons/io";
+import { BsGear } from "react-icons/bs";
+
 
 
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import Logovalochat from '../assets/images/Logovalochat.png';
+import Logovalochat from "../../assets/images/Logovalochat.png";
 import './welcome.css';
 const Welcome = () => {
     return (

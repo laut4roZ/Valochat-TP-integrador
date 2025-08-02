@@ -1,5 +1,5 @@
 import react from 'react';
-import contactos from '../Services/contactos.js';
+import contactos from '../../Services/contactos.js';
 import './ContactoItem.css';
 
 const ContactoItem = ({ nombre, img, chatHistory }) => {

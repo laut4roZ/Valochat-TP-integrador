@@ -1,7 +1,7 @@
 import react from 'react';
 import { Link } from 'react-router-dom';
-import contactos from '../Services/contactos.js';
-import ContactoItem from './ContactoItem.jsx';
+import contactos from "../../Services/contactos.js";
+import ContactoItem from '../ContactoItem/ContactoItem';
 
 
 
