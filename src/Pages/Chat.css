@@ -148,8 +148,11 @@
 
 
 .icono-agregar-container {
-
     display: flex;
+}
 
-
+@media screen and (max-width: 465px) {
+    .right-header {
+        display: none;
+    }
 }

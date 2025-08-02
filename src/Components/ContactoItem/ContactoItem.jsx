@@ -21,4 +21,6 @@ const ContactoItem = ({ nombre, img, chatHistory }) => {
     );
 };
 
+
+
 export default ContactoItem;

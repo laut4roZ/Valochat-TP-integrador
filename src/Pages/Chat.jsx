@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams, useNavigate, Link } from 'react-router-dom';  // agregué Link
 import './Chat.css';
 import contactos from '../Services/contactos.js';
 import { IoMdArrowRoundBack } from "react-icons/io";
@@ -9,7 +9,6 @@ import { AiOutlinePlusCircle } from "react-icons/ai";
 import { BsThreeDotsVertical } from "react-icons/bs";
 import { GoDeviceCameraVideo } from "react-icons/go";
 import { GoSearch } from "react-icons/go";
-
 
 function Chat() {
     const { id } = useParams();
@@ -21,7 +20,6 @@ function Chat() {
     const [chatHistory, setChatHistory] = useState(contacto ? contacto.chatHistory : []);
 
     useEffect(() => {
-
         if (contacto) {
             setChatHistory(contacto.chatHistory);
         }
@@ -57,7 +55,8 @@ function Chat() {
                     <button onClick={handleVolverHome} className="back-button">
                         <IoMdArrowRoundBack className="back-icon" />
                     </button>
-                    <img src={contacto.img} alt={contacto.nombre} className="imagenepica" />
+                        <img src={contacto.img} alt={contacto.nombre} className="imagenepica" />
+                    
                     <div className="contact-name-status">
                         <h2>{contacto.nombre}</h2>
                         <span>{contacto.ultimavez}</span>

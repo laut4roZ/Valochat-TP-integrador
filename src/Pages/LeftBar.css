@@ -1,5 +1,4 @@
 .leftbaricons {
-    position: static;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,7 +10,7 @@
 
 .abajo {
     position: relative;
-    top: 680px;
+    top: 600px;
 }
 
 .iconsize {

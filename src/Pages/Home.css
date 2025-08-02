@@ -1,29 +1,27 @@
 .home-container {
     display: flex;
     flex-direction: row;
-    height: 100vh;
+    height: 850px;
     width: 100%;
 }
 
 .leftbar-section {
     background-color: #1d1f1f;
     color: #a4a6a6;
-    height: auto;
+    height: 930px;
     width: 4%;
     display: flex;
     align-items: flex-start;
     justify-content: center;
     padding: 10px;
-    position: sticky;
 
 }
 
 .contact-section {
-    height: auto;
+    height: 100%;
     width: 36%;
     background-color: #161717;
     color: #a4a6a6;
-    display: flex;
     flex-direction: column;
     padding: 10px;
 }
@@ -32,8 +30,60 @@
     height: auto;
     width: 60%;
     background-color: #333333;
-    display: flex;
     flex-direction: column;
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1250px) {
+.leftbar-section {
+    display: none;
+}
+.contact-section{
+    width: 60%;
+}
+.chat-section{
+    width: 40%;
+}
+}
+
+@media screen and (max-width: 900px) {
+    .chat-section {
+        display: none;
+    }
+
+    .chat-open .chat-section {
+        width: 100%;
+    }
+
+    .contact-section {
+        width: 100%;
+    }
+}
 
 
+@media screen and (max-width: 1000px) {
+    .chat-section {
+        display: none;
+    }
+
+    .leftbar-section {
+        display: none;
+    }
+
+    .contact-section {
+        width: 100%;
+    }
+
+    .chat-open .leftbar-section,
+    .chat-open .contact-section {
+        display: none;
+    }
+
+    .leftbar-section {
+    display: none;
+}
+
+    .chat-open .chat-section {
+        display: block;
+        width: 100%;
+    }
 }
